@@ -18,15 +18,15 @@ int main()
 		cout << "0. Выход" << endl;
 
 		cin >> x;
+		const int c = 5;
 
 		switch (x)
 		{
 		case 1:
 			system("cls");
 			cout << " Введите множество A: " << endl;
-			const int c = 5;
 			int A[c];
-			for (int i = 1; i <= 5; i++)
+			for (int i = 0; i < c; i++)
 			{
 				cin >> A[i];
 			}
@@ -42,7 +42,28 @@ int main()
 			cout << " 3000 " << endl;
 			return 0;
 			break;
+		case 4:
+			system("cls");
+			cout << " 4000 " << endl;
+			return 0;
+			break;
+		case 5:
+			system("cls");
+			cout << " 4000 " << endl;
+			return 0;
+			break;
+		case 6:
+			system("cls");
+			cout << " 4000 " << endl;
+			return 0;
+			break;
+		case 0:
+			system("cls");
+			cout << " 4000 " << endl;
+			return 0;
+			break;
 		default: 
+
 			system("cls");
 		}
 
